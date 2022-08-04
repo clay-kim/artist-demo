@@ -1,0 +1,14 @@
+h2 {
+    font-size: 90px;
+    color: rgb(15, 152, 238);
+}
+
+.Painting {
+    background-color: rgb(255, 97, 184);
+    height: 700px;
+    margin-left: 30px;
+    margin-right: 50px;
+    color: #fff;
+    margin-top:30px;
+
+}

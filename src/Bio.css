@@ -1,0 +1,10 @@
+.bio-container {
+    background-color: blueviolet;
+    height: 700px;
+    margin-left: 30px;
+    margin-right: 50px;
+    color: #fff;
+    margin-top:30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+}
