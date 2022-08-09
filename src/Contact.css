@@ -5,21 +5,125 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+.contact-container .content img {
+    height: auto;
+    width: 540px;
+    max-width: 100%;
+    border-radius: 3em;
+}
+
+.contact-container .content {
+    width: 90%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .contact-container {
     width: 100%;
-    height: 100vh;
-    background-color: rgb(254, 232, 60);
+    height: 95vh;
+    background-color: rgba(237, 237, 237, 0.49);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
-.contact-container h2 {
-    font-size: 100px;
-    color: rgb(43, 143, 176);
-    text-decoration:line-through;
-    text-align: center;
+
+.form-group-container h2 {
+    font-size: 40px;
+    color: rgb(44, 127, 145);
     font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    margin-top: 20px;
 }
 
+.form-group {
+    width: 90%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+label {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(42, 47, 43);
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    ;
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 45px;
+    box-shadow: none;
+    background-color: #dadad3;
+}
+
+textarea {
+    min-height: 30px;
+    resize: vertical;
+    width: 350px;
+}
+
+textarea#message {
+    height: 200px;
+}
+
+
+.submit-button {
+    width: 40%;
+    margin-right: 0px;
+    margin-top: 20px;
+    background-color: rgb(70, 188, 252);
+    color: rgb(255, 248, 222);
+    font-size: 20px;
+    outline: none;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.submit-button:hover {
+    color: rgb(251, 227, 111);
+}
+
+@media screen and (max-width: 1180px) {
+    .contact-container {
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact-container .content {
+        margin-bottom: 35px;
+    }
+
+    .contact-container .content img {
+        width: 400px;
+    }
+
+    .contact-container h4 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+}
