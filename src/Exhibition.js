@@ -4,9 +4,11 @@ import './Exhibition.css';
 function Exhibition() {
   return (
     <div className="exhibition-container">
-            <h2>
-                ART CREW    
-            </h2>
+      <div className="content">
+        <h1>
+          ART CREW
+        </h1>
+      </div>
     </div>
   )
 }

@@ -5,11 +5,12 @@ function Painting() {
 
 
     return (
-        <div className="Painting">
-        Painting
-            <h2>
-                Hello
-            </h2>
+        <div className="painting-container">
+            <div className="content">
+                <h2>
+                    Hello
+                </h2>
+            </div>
 
         </div>
 

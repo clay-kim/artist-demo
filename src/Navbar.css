@@ -15,7 +15,7 @@
 
 .logo {
     display: flex;
-    position: absolute ;
+    position: absolute;
     top: 0px;
     left: 30px;
     margin-top: 30px;
@@ -30,7 +30,7 @@
 .bio,
 .store,
 .contact {
-    color:rgb(255, 56, 145);
+    color: rgb(255, 0, 115);
     margin-top: 40px;
     text-align: center;
     padding: 30px;
@@ -51,25 +51,24 @@
 }
 
 .nav-links li:hover {
-
-    color: rgb(136, 84, 219);
-
+    color: rgb(142, 140, 145);
 }
 
-.hamburger-icon{
+.hamburger-icon {
     display: none;
 }
+
 /*
     mobile mode
 */
 
 @media (max-width: 768px) {
 
-    .nav-links{
+    .nav-links {
         display: none;
     }
 
-    .hamburger-icon{
+    .hamburger-icon {
         display: block;
         margin-top: 50px;
 
@@ -93,7 +92,7 @@
     .bio,
     .store,
     .contact {
-        color:rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
         text-align: center;
         padding: 32px;
         width: 100%;
@@ -103,8 +102,8 @@
     .nav-links-mobile li:hover {
         background-color: rgb(255, 178, 157);
         transition: all 0.5s ease;
-        color:rgb(43, 41, 41);
-       
+        color: rgb(43, 41, 41);
+
     }
 
 }

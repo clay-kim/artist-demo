@@ -11,7 +11,7 @@ function Bio() {
                 <img src={profile_pic} alt="selfie"/>
                 <div className='text'>
                     <h1>About Clay</h1>
-                    <h5>Developer & Painter</h5>
+                    <h5>Oil Painter</h5>
                     <p>My name is Clay Kim. As a painter, I am known as GC. GC stands for “God’s Child”. I believe that my talent and inspirations come from God, the greatest artist above all. 
                     I am from South Korea and studied art at the University of Washington. As a lifetime student to the subject, I accept the changes and different personalities my art takes on.
                     I am always willing to try different techniques, based on the subject of my art. I believe it is important to accept and become what I paint – to be suitable and at times provocative. My approach to a painting is based on my first impression rather that observation. 

@@ -14,18 +14,11 @@
     align-items: center;
     margin-top: 50px;
 }
-.contact-container h1 {
-
-    font-size: 45px;
-    color: rgb(238, 138, 138);
-    text-align: center;
-    font-family: 'Barlow Condensed', sans-serif;
-}
 
 .contact-container h2 {
-   
     font-size: 100px;
-    color: rgb(37, 175, 221);
+    color: rgb(43, 143, 176);
+    text-decoration:line-through;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
 }
