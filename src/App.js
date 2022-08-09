@@ -8,13 +8,11 @@ import Bio from './Bio';
 import Contact from './Contact';
 import Store from './Store';
 import Home from './Home';
-import logo from './images/logoT.png';
+import Footer from './Footer';
 
 
 
 const App = () => {
-
-  const [isOn, setIsOn] = useState(false);
 
   return (
 
@@ -29,6 +27,8 @@ const App = () => {
           <Route path='/store' element={<Store />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+
+        <Footer />
 
     </Router>
 

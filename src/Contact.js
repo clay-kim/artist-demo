@@ -6,11 +6,12 @@ import "./Contact.css";
 function Contact() {
     return (
         <div className="contact-container">
-            
-                <h1>Contact</h1>
-                <h2>Social Media</h2>
-                SNS
-            
+            <h2>Contact</h2>
+
+            <div className="content">
+                
+            </div>
+
 
         </div>
     )
