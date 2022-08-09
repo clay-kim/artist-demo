@@ -11,9 +11,8 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-                <Link to="/home">
-                    <img src={logo} alt="logo" width="80" height="80"
-                    onClick={() => setIsMobile(false)} />
+                <Link to="/">
+                    <img src={logo} alt="logo" width="80" height="80"/>
                 </Link>
             </div>
 

@@ -22,7 +22,7 @@ const App = () => {
       <Navbar />
 
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/painting" element={<Painting />} />
           <Route path='/exhibition' element={<Exhibition />} />
           <Route path='/bio' element={<Bio />} />
@@ -30,10 +30,9 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
         </Routes>
 
-       
-
     </Router>
 
+  
   );
 };
 
