@@ -9,7 +9,7 @@ import Contact from './Contact';
 import Store from './Store';
 import Home from './Home';
 import Footer from './Footer';
-
+import Test from './Test';
 
 
 const App = () => {
@@ -26,6 +26,7 @@ const App = () => {
           <Route path='/bio' element={<Bio />} />
           <Route path='/store' element={<Store />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/test' element={<Test />} />
         </Routes>
 
         <Footer />

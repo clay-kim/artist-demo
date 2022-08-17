@@ -41,7 +41,7 @@
 }
 
 .bio-container .text h1 {
-    color: rgb(94, 94, 94);
+    color: rgb(103, 101, 101);
     font-size: 55px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -49,7 +49,7 @@
 }
 
 .bio-container .text h5 {
-    color: rgb(255, 255, 255);
+    color: rgb(55, 52, 52);
     font-size: 25px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -57,7 +57,7 @@
 }
 
 .bio-container .text p {
-    color: teal;
+    color: rgb(82, 82, 82);
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 1px;
