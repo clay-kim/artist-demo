@@ -1,24 +1,28 @@
 .footer-container {
+    height: 60px;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
-    padding: 0.3rem;
-    background-color: #efefef;
+    padding: 0.1rem;
+    background-color: #ede9ddad;
+    font-size: small;
 }
 
 .social-icons-container {
-    padding: 10px;
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 .text-dark {
     text-decoration: none;
     color: cadetblue;
+    font-size: small;
 }
 
 .social-icons {
@@ -26,8 +30,10 @@
     justify-content: space-evenly;
     list-style: none;
     transition: all 0.5s ease-in-out;
+    margin-bottom: 5px;
 
 }
+
 
 .social-icons li {
     padding: 1px;
@@ -40,7 +46,7 @@
 
 }
 
-@media (max-height: 800px){
+@media (max-height: 750px){
     .footer-container{
         display: none;
     }

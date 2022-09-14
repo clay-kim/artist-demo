@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Contact.css";
 import { useState } from 'react';
-import pic from './images/creation.jpg';
+import pic from '../images/creation.jpg';
 
 function Contact() {
     const [name, setName] = useState('');
@@ -33,10 +33,8 @@ function Contact() {
     return (
         <div className="contact-container">
             <div className="content">
-
                 <img src={pic} alt="selfie" />
-
-                <div className='form-group-container'> 
+                    <div className='form-group-container'> 
                     <form  onSubmit={handleSubmit}>
                         <h2>
                             Get in touch

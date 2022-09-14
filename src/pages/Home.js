@@ -1,13 +1,13 @@
 import React from 'react'
 import './Home.css'
-import main_painting from './images/main_painting.jpg';
+import main_painting from '../images/main_painting.jpg';
 import { Link } from 'react-router-dom';
 
 function Home() {
     return (
         <div className='home-container'>
             <div className="content">
-                <Link to="/">
+                <Link to="/painting">
                     <img src={main_painting} alt="logo" width="380" height="580" />
                 </Link>
                 <div className="text">

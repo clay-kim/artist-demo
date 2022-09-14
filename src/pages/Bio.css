@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Barlow Condensed', sans-serif;
 }
@@ -8,7 +8,7 @@
 .bio-container {
     width: 100%;
     height: 90vh;
-    background-color: rgb(209, 229, 211);
+    background-color: #A0C4BB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,17 +31,17 @@
 
 .bio-container .content {
     width: 90%;
+    height: 100%;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 .bio-container .text h1 {
-    color: rgb(103, 101, 101);
+    color: rgb(230, 234, 242);
     font-size: 55px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -49,7 +49,7 @@
 }
 
 .bio-container .text h5 {
-    color: rgb(55, 52, 52);
+    color: #4a4848;
     font-size: 25px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -73,12 +73,33 @@
 }
 
 @media screen and (max-width: 650px) {
+    .bio-container{
+        width: 100%;
+        height:auto;
+       
+    }
     .bio-container .content {
         margin-bottom: 35px;
     }
     .bio-container .text h1 {
         font-size: 50px;
         margin-bottom: 25px;
+    }
+
+    .bio-container .text h5 {
+        color: rgb(55, 52, 52);
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .bio-container .text p {
+        color: rgb(82, 82, 82);
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 45px;
     }
 
 

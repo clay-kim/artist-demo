@@ -26,7 +26,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className='copyright' style={{ color: "#ccc", backgroundColor: 'rgba(0, 0, 0, 0)' }}>
+            <div className='copyright' style={{ color: "rgb(0, 90, 121)", backgroundColor: 'rgba(0, 0, 0, 0)' }}>
                 © 2022 Copyright:
                 <a className='text-dark' href='https://thisisclay.com/'>
                     ThiswillBeMySite.com

@@ -16,10 +16,12 @@
 }
 
 .home-container .content img {
-    height: auto;
-    width: 450px;
-    max-width: 100%;
-    border-radius:1em;
+
+        height: auto;
+        width: 450px;
+        max-width: 100%;
+        border-radius: 3em;
+        padding: 20px;
 }
 
 .content{
@@ -55,15 +57,25 @@
         height: 90vh;
         padding: 70px 0px;
     }
+
+    .home-container .content img {
+
+        height: auto;
+        width: 350px;
+        max-width: 100%;
+        border-radius: 3em;
+        padding: 20px;
+    }   
 }
+
+
 
 @media screen and (max-width: 650px) {
-  
-    .text h1 {
-        font-size: 30px;
-        margin-bottom: 25px;
+    .home-container {
+        margin-bottom: 35px;
     }
-}
 
+
+}
 
 

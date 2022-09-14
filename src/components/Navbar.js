@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import logo from './images/logoT.png';
+import logo from '../images/logoT.png';
 import './Navbar.css';
 import { Squeeze as Hamburger } from 'hamburger-react'
 
@@ -14,13 +14,13 @@ const Navbar = () => {
                 <Link to="test">
                     <img src={logo} alt="logo" width="80" height="80" />
                 </Link>
-
             </div>
 
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
                 onClick={() => setIsMobile(false)}>
-                <Link to='/painting' className="painting">
-                    <li>Painting</li>
+
+                <Link to='/gallery' className="gallery">
+                    <li>Gallery</li>
                 </Link>
                 <Link to='/exhibition' className="exhibition">
                     <li>Exhibition</li>
@@ -34,6 +34,10 @@ const Navbar = () => {
                 <Link to='/contact' className="contact">
                     <li>Contact</li>
                 </Link>
+                <Link to='/practice' className="practice">
+                <li>Demo</li>
+                </Link>
+
             </ul>
 
             <div className="hamburger-icon">

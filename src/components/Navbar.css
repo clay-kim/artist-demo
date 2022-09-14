@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 95px;
+    height: 70px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -17,23 +17,25 @@
     display: flex;
     position: absolute;
     top: 0px;
-    left: 30px;
-    margin-top: 30px;
+    left: 20px;
+    margin-top: 20px;
 }
 
 .hamburger-icon {
     display: none;
 }
 
-.painting,
+.practice,
+.gallery,
 .exhibition,
 .bio,
 .store,
 .contact {
-    color: rgb(255, 0, 115);
-    margin-top: 40px;
+    color:#7d8e98;
+    margin-left: 30px;
+    margin-bottom: 0;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
     transition: all 0.5s ease;
     font-family: 'Barlow Condensed', sans-serif;
@@ -51,8 +53,9 @@
 }
 
 .nav-links li:hover {
-    color: rgb(142, 140, 145);
+    color:#fa9dbc;
 }
+
 
 .hamburger-icon {
     display: none;
@@ -78,21 +81,22 @@
         position: absolute;
         display: block;
         list-style: none;
-        background-color: steelblue;
+        background-color: #A0C4BB;
         left: 0;
         top: 125px;
         transition: all 0.5s ease-in-out;
         opacity: 90%;
         width: 100%;
         padding: 20px;
+        z-index: 10;
     }
-
-    .painting,
+    .practice,
+    .gallery,
     .exhibition,
     .bio,
     .store,
     .contact {
-        color: rgb(255, 255, 255);
+        color: #FBF6F7;
         text-align: center;
         padding: 32px;
         width: 100%;

@@ -1,0 +1,30 @@
+
+.cardArt{
+    overflow: hidden;
+    box-shadow: 2 2px 20px rgb(166, 158, 158);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    transition: transform 200ms ease-in;
+    margin: 0 30px;
+    border: 1px solid  #4e4d4e;
+    cursor: pointer;
+}
+
+
+.cardArt img{
+    height: 18rem;
+    object-fit:cover;
+    }
+
+.cardArt :hover{
+    transform: scale(1.02);
+}
+
+.cardArt a:hover {
+    color:rgba(33, 88, 122, 0.869);
+    transform: scale(1.02);
+    
+}

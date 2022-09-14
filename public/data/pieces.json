@@ -1,0 +1,55 @@
+{
+    "pieces":[
+        {
+            "id": "1",
+            "title":"Art1",
+            "description": "the art",
+            "year":"2009",
+            "img":"/images/gc_painting1.jpeg",
+            "price": 450
+        },
+        {
+            "id": 2,
+            "title":"Art2",
+            "description": "the art",
+            "year":2009,
+            "img":"/images/gc_painting3.jpeg",
+            "price": 450
+        },
+        {
+            "id": 3,
+            "title":"Art3",
+            "description": "the art",
+            "year":2009,
+            "img":"/images/gc_painting2.jpeg",
+            "price": 450
+        },
+        {
+            "id": 4,
+            "title":"Art4",
+            "description": "the art",
+            "year":2009,
+            "img":"/images/gc_painting7.jpeg",
+            "price": 450
+        },
+        {
+            "id": 5,
+            "title":"Art5",
+            "description": "the art",
+            "year":2009,
+            "img":"/images/gc_painting3.jpeg",
+            "price": 450
+        },
+        {
+            "id": 6,
+            "title":"Art6",
+            "description": "the art",
+            "year":2009,
+            "img":"/images/gc_painting5.jpeg",
+            "price": 450
+        }
+
+    ]
+
+
+}

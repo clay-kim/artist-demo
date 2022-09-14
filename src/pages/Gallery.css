@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.gallery-container {
+    width: 100%;
+    background-color: rgba(234, 231, 221, 0.415);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.gallery-container h1 {
+    font-size:25px;
+    color: #14372fde;    
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .gallery-container {
+        width: 100%;
+        height: max-content;
+        background-color: rgba(234, 231, 221, 0.415);
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
