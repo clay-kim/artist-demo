@@ -6,6 +6,12 @@ function Card(props) {
     console.log("this is ==== CARD ===")
 
 
+     // <div className="card-view" >
+                //     <a href='/detail/{id}' class="link btn-block" className="card-view-btn">
+                //         View Detail
+                //     </a>
+                // </div>
+
     return (
 
         <div className='card w-60 mb-3'>
@@ -14,12 +20,9 @@ function Card(props) {
                 <h2 class='text-end' className="card_title">{props.title}</h2>
                 <p class='text-end mb-2 text-muted' className='card_year'>{props.year}</p>
                 <p class='text-end mb-2 text-muted' className='card_description'>{props.description}</p>
+                <p class='text-end mb-2 text-muted' className='card_price'>$ {props.price}</p>
                 
-                <div className="card-view" >
-                    <a href='/detail/{id}' class="link btn-block" className="card-view-btn">
-                        View Detail
-                    </a>
-                </div>
+               
             </div>
         </div>
     )

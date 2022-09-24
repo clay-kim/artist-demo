@@ -59,7 +59,15 @@
     width: 85%;
     max-width: 450px;
     object-fit:cover;
+    border: 1.2px solid rgba(73, 71, 71, 0.777);
     
+}
+
+@media screen and (max-width: 1200px) {
+.card_body h2 {
+    font-size:1.5em;
+    
+}
 }
 
 /* .card_body :hover{

@@ -1,53 +1,155 @@
 {
     "pieces":[
         {
-            "id": "1",
-            "title":"Art1",
-            "description": "the art",
-            "year":"2009",
-            "img":"/images/gc_painting1.jpeg",
-            "price": 450
+            "id": 1,
+            "title":"Untitled",
+            "description": "Oil on canvas, 16 x 20 inches",
+            "year":"2020",
+            "img":"/images/art7.jpeg",
+            "src": ["/images/art7.jpeg",
+            "/images/art7-1.jpeg",
+            "/images/art7-2.jpeg",
+            "/images/art7-3.jpeg"
+            ],
+            "price": 170
         },
         {
             "id": 2,
-            "title":"Art2",
-            "description": "the art",
-            "year":2009,
-            "img":"/images/gc_painting3.jpeg",
-            "price": 450
+            "title":"Locker room",
+            "description": "Oil on canvas, 11 x 14 inches",
+            "year":2018,
+            "img":"/images/art6.jpg",
+            "src": ["/images/art6.jpg",
+            "/images/art6-1.jpeg",
+            "/images/art6-2.jpeg",
+            "/images/art6-3.jpeg"
+            ],
+            "price": 150
         },
         {
             "id": 3,
-            "title":"Art3",
-            "description": "the art",
-            "year":2009,
-            "img":"/images/gc_painting2.jpeg",
-            "price": 450
-        },
-        {
+            "title":"PNW",
+            "description": "Oil on canvas, 8 x 10 inches",
+            "year":2020,
+            "img":"/images/art5.jpeg",
+            "src": ["/images/art5.jpeg",
+            "/images/art5-1.jpeg",
+            "/images/art5-2.jpeg",
+            "/images/art5-3.jpeg"
+            ],
+            "price": 50
+        }, {
             "id": 4,
-            "title":"Art4",
-            "description": "the art",
-            "year":2009,
-            "img":"/images/gc_painting7.jpeg",
-            "price": 450
-        },
-        {
+            "title":"Boxing",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2018,
+            "img":"/images/art9.jpg",
+            "src": ["/images/art9.jpg",
+            "/images/art9-1.jpeg",
+            "/images/art9-2.jpeg",
+            "/images/art9-3.jpeg"
+            ],
+            "price": 150
+        }, {
             "id": 5,
-            "title":"Art5",
-            "description": "the art",
-            "year":2009,
-            "img":"/images/gc_painting3.jpeg",
-            "price": 450
-        },
-        {
+            "title":"Heart",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2018,
+            "img":"/images/art8.jpeg",
+            "src": ["/images/art8.jpeg",
+            "/images/art8-1.jpeg",
+            "/images/art8-2.jpeg",
+            "/images/art8-3.jpeg"
+            ],
+            "price": 150
+        }, {
             "id": 6,
-            "title":"Art6",
-            "description": "the art",
-            "year":2009,
-            "img":"/images/gc_painting5.jpeg",
+            "title":"Just a thought",
+            "description": "Oil on canvas, 36 x 48 inches",
+            "year":2020,
+            "img":"/images/art4.jpg",
+            "src": ["/images/art4.jpg",
+            "/images/art4-1.jpeg",
+            "/images/art4-2.jpeg",
+            "/images/art4-3.jpeg"
+            ],
+            "price": 400
+        }, {
+            "id": 7,
+            "title":"Fishing",
+            "description": "Oil on canvas, 36 x 36 inches",
+            "year":2020,
+            "img":"/images/art3.jpeg",
+            "src": ["/images/art3.jpeg",
+            "/images/art3-1.jpeg",
+            "/images/art3-2.jpeg",
+            "/images/art3-3.jpeg"
+            ],
             "price": 450
+        }, {
+            "id": 8,
+            "title":"A farmer and a cow",
+            "description": "Oil on canvas, 24 x 30 inches",
+            "year":2020,
+            "img":"/images/art10.jpg",
+            "src": ["/images/art10.jpg",
+            "/images/art10-1.jpeg",
+            "/images/art10-2.jpeg",
+            "/images/art10-3.jpeg"
+            ],
+            "price": 300
+        }, {
+            "id": 9,
+            "title":"Window girl",
+            "description": "Oil on canvas, 11 x 14 inches",
+            "year":2020,
+            "img":"/images/art11.jpg",
+            "src": ["/images/art11.jpg",
+            "/images/art11-1.jpeg",
+            "/images/art11-2.jpeg",
+            "/images/art11-3.jpeg"
+            ],
+            "price": 50
+        }, {
+            "id": 10,
+            "title":"Going home",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2019,
+            "img":"/images/art12.jpg",
+            "src": ["/images/art12.jpg",
+            "/images/art12-1.jpeg",
+            "/images/art12-2.jpeg",
+            "/images/art12-3.jpeg"
+            ],
+            "price": 150
+        }, {
+            "id": 11,
+            "title":"Path",
+            "description": "Oil on canvas, 11 x 14 inches",
+            "year":2018,
+            "img":"/images/art13.jpeg",
+            "src": ["/images/art13.jpeg",
+            "/images/art13-1.jpeg",
+            "/images/art13-2.jpeg",
+            "/images/art13-3.jpeg"
+            ],
+            "price": 40
+        }, {
+            "id": 12,
+            "title":"Traffic scene in Seattle",
+            "description": "Oil on canvas, 8 x 10 inches",
+            "year":2021,
+            "img":"/images/art14.png",
+            "src": ["/images/art14.png",
+            "/images/art14-1.jpeg",
+            "/images/art14-2.jpeg",
+            "/images/art14-3.jpeg"
+            ],
+            "price": 30
         }
+
+        
+
 
     ]
 

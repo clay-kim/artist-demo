@@ -19,9 +19,7 @@ function CardArt(props) {
 
     <div class="cardArt">
    
-      <img src={props.img} alt="image" />
-      <button class="btn btn-primary">View</button>
-        
+      <img src={props.img} alt="image" /> 
     </div>
   )
 }

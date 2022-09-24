@@ -15,16 +15,6 @@
 
 
 .cardArt img{
-    height: 18rem;
+    height: 19rem;
     object-fit:cover;
     }
-
-.cardArt :hover{
-    transform: scale(1.02);
-}
-
-.cardArt a:hover {
-    color:rgba(33, 88, 122, 0.869);
-    transform: scale(1.02);
-    
-}

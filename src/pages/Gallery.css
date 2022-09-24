@@ -7,31 +7,185 @@
 
 .gallery-container {
     width: 100%;
-    background-color: rgba(234, 231, 221, 0.415);
+    height: 100%;
+    background-color: rgba(237, 236, 233, 0.782);
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    padding-bottom: 70px;
 }
 
+.col {
+    padding-bottom: 40px;
+}
 
 .gallery-container h1 {
-    font-size:25px;
-    color: #14372fde;    
-    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #262525fe;
+    font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
 }
 
+/* Button CSS */
+.centered .button-6 {
+    align-items: center;
+    background-color: #f7f5f54d;
+    border: 1px solid rgba(230, 223, 223, 0.816);
+    border-radius: .35rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(16, 15, 15, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.2rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    opacity: 0.5;
+}
+.centered .button-6:hover,
+.button-6:focus {
+    border-color: rgba(19, 19, 19, 0.753);
+    box-shadow: rgba(23, 23, 23, 0.1) 0 4px 12px;
+    color: rgba(35, 34, 32, 0.901);
+}
+.centered .button-6:hover {
+    transform: translateY(-1px);
+    opacity: 1;
+    background-color: #dedee485;
+}
+.centered .button-6:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+/* Button CSS */
+.button-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    background: #6E6D70;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color: #DFDEDF;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.button-12:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
+
+/* Modal CSS */
+.show-grid {
+    background-color: rgba(231, 231, 231, 0.794);
+    text-align: center;
+    max-height: 850px;
+}
+.modal-open {
+    background-color: rgba(41, 40, 40, 0.362);
+}
+.show-grid img {
+    max-width: 90%;
+    max-height: 800px;
+}
+.show-grid h2 {
+    font-size: 2em;
+    text-align: left;
+    color: rgb(11, 11, 11);
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.show-grid h4 {
+    font-size: 1em;
+    text-align: left;
+    margin-left: 15px;
+}
+.show-grid p {
+    text-align: left;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .show-grid h2 {
+        font-size: 2em;
+        text-align: left;
+        color: rgb(11, 11, 11);
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .show-grid h4 {
+        font-size: 1em;
+        text-align: left;
+        margin-left: 15px;
+    }    
+
+
+
+}
 
 
 @media screen and (max-width: 650px) {
     .gallery-container {
         width: 100%;
         height: max-content;
-        background-color: rgba(234, 231, 221, 0.415);
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+    }
+
+    .col {
+        padding-bottom: 20px;
+    }
+
+    .show-grid img {
+        max-width: 90%;
+
+    }
+
+    .show-grid h2 {
+        font-size: 24px;
+        text-align: left;
+        color: rgb(11, 11, 11);
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .show-grid h4 {
+        font-size: 1em;
+        text-align: left;
+        margin-left: 15px;
     }
 }

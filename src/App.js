@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import Test from './pages/Test';
 import Gallery from './pages/Gallery';
 import Navbar from './components/Navbar';
-import Detail from './pages/products/Detail';
+import Detail from './pages/Detail';
 
 
 const App = () => {
@@ -30,7 +30,8 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/test' element={<Test products={products} setProducts={setProducts}/>} /> 
           <Route path='/practice' element={<Practice products={products} setProducts={setProducts}/>} />
-          <Route path='/detail/:id' element={<Detail  products={products} />} />
+          <Route path='/detail' element={<Detail products={products} setProducts={setProducts}/>} />
+      
          
         </Routes>
 

@@ -1,0 +1,65 @@
+{
+    "products":[
+        {
+            "id": "1",
+            "title":"Sun Bathing",
+            "description": "18 x 24 inches, Oil on Canvas",
+            "year":"2022",
+            "img":"/images/pnw.jpg",
+            "price": 0
+            
+        },
+        {
+            "id": 2,
+            "title":"Sunbath",
+            "description": "11 x 14 inches, Oil on Canvas",
+            "year":2022,
+            "img":"/images/sunbath.jpg",
+            "price": 0
+        },
+        {
+            "id": 3,
+            "title":"Dance",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2018,
+            "img":"/images/dancing.jpeg",
+            "price": 0
+        },
+        {
+            "id": 4,
+            "title":"Laundry (Han River)",
+            "description": "11 x 14 inches, Oil on canvas",
+            "year":2019,
+            "img":"/images/laundry.png",
+            "price": 0
+        },
+        {
+            "id": 5,
+            "title":"Locker room",
+            "description": "11 x 14 inches, Oil on canvas",
+            "year":2018,
+            "img":"/images/art6.jpg",
+            "price": 0
+        },
+        {
+            "id": 6,
+            "title":"Hide and seek",
+            "description": "20 x 24 inches, Oil on canvas",
+            "year":2018,
+            "img":"/images/line.jpg",
+            "price": 0
+        },
+        {
+            "id": 7,
+            "title":"Waves",
+            "description": "36 x 36 inches, Oil on canvas",
+            "year":2020,
+            "img":"/images/wave.jpg",
+            "price": 0
+        }
+
+
+    ]
+
+
+}
