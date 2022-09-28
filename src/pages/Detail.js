@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react"
 import React from 'react'
 import './Detail.css'
-import img1 from '../images/gc_painting13.jpeg'
-import img2 from '../images/main_painting.jpg';
-import img3 from '../images/creation.jpg';
+
 import axios from 'axios';
 
 function Detail({ products, setProducts }) {
