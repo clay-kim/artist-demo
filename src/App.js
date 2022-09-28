@@ -1,12 +1,10 @@
 import React, {useState, useParams} from 'react';
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Practice from './pages/Practice';
 import Exhibition from './pages/Exhibition';
 import Bio from './pages/Bio';
 import Contact from './pages/Contact';
 import Store from './pages/Store';
-import Home from './pages/Home';
 import Footer from './components/Footer';
 import Test from './pages/Test';
 import Gallery from './pages/Gallery';
