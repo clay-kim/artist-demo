@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+  
+}
+
+.contact-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #153c44b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contact-container .content img {
+    
+    width: 450px;
+    max-width: 100%;
+    border-radius: 2em;
+    border:2px #e3e1e1 solid;
+}
+
+.contact-container .content {
+    width: 90%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-group-container {
+    width: 540px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.form-group-container h2 {
+    font-size: 40px;
+    color: #ece3d7cd;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group {
+    width: 90%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+input,
+textarea {
+    width: 100%;
+    font-size: 20px;
+    resize: vertical;
+    padding: 10px;
+    color: rgb(42, 47, 43);
+    outline: none;
+    border: 2px solid rgba(131, 131, 131, 0.6);
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+textarea:focus {
+    border: 2px solid rgb(70, 103, 113);
+}
+
+textarea {
+    height: 52px;
+    resize: vertical;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea#message {
+    height: 200px;
+}
+
+
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    margin-top: 10px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(14, 130, 160);
+    font-size: 20px;
+    border: 2px solid rgb(138, 138, 138);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 35px;
+}
+
+.submit-button:hover {
+    color: rgb(229, 164, 22);
+    border: 2px solid rgb(70, 103, 113);
+}
+
+@media screen and (max-width: 1180px) {
+    .contact-container {
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact-container .content {
+        margin-bottom: 35px;
+    }
+    .contact-container h4 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+}

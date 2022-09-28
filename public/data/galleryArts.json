@@ -1,0 +1,102 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "title":"Gravity",
+            "description": "Oil on canvas, 20 x 20 inches",
+            "year":"2022",
+            "img":"/images/gravity.jpg",
+            "price": 0
+        },
+        {
+            "id": 2,
+            "title":"Dance",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2018,
+            "img":"/images/dancing.jpeg",
+            "price": 0
+        },
+
+        {
+            "id": 3,
+            "title":"Laundry (Han River)",
+            "description": "Oil on canvas, 20 x 30 inches",
+            "year":2019,
+            "img":"/images/laundry.png",
+            "price": 0
+        },
+        {
+            "id": 4,
+            "title":"Rice planting",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2021,
+            "img":"/images/rice-planting.jpg",
+            "price": 0
+        },
+        {
+            "id": 5,
+            "title":"Waves",
+            "description": "Oil on canvas, 36 x 36 inches",
+            "year":2020,
+            "img":"/images/wave.jpg",
+            "price": 450,
+            "available": "Available in store!"
+        },
+        {
+            "id": 6,
+            "title":"Father building a snowman",
+            "description": "Oil on canvas, 14 x 18 inches",
+            "year":2018,
+            "img":"/images/father.jpg",
+            "price": 0
+        },
+        {
+            "id": 7,
+            "title":"Nostalgia 01",
+            "description": "Oil on canvas, 30 x 24 inches",
+            "year":2019,
+            "img":"/images/night.jpg",
+            "price": 0,
+            "available":"Available in store!"
+        },
+    
+        {
+            "id": 8,
+            "title":"River",
+            "description": "Oil on canvas, 30 x 24 inches",
+            "year":2019,
+            "img":"/images/river.jpg",
+            "price": 0,
+            "available":"Available in store!"
+        },
+        {
+            "id": 9,
+            "title":"Going home",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2019,
+            "img":"/images/art12.jpg",
+            "price": 150,
+            "available":"Available in store!"
+        },
+      
+        {
+            "id": 10,
+            "title":"Rose garden",
+            "description": "Oil on canvas, 20 x 24 inches",
+            "year":2019,
+            "img":"/images/rose-garden.jpg",
+            "price": 0
+        },
+        {
+            "id":11,
+            "title":"Locker room",
+            "description": "Oil on canvas, 11 x 14 inches",
+            "year":2018,
+            "img":"/images/art6.jpg",
+            "price": 150,
+            "available":"Available in store!"
+        }
+    ]
+
+
+}

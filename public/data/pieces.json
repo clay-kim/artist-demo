@@ -1,0 +1,206 @@
+{
+    "pieces":[
+        {
+            "id": 1,
+            "title":"Untitled",
+            "description": "Oil on canvas, 16 x 20 inches",
+            "year":"2020",
+            "img":"/images/art7.jpeg",
+            "src": ["/images/art7.jpeg",
+            "/images/art7-1.jpeg",
+            "/images/art7-2.jpeg",
+            "/images/art7-3.jpeg"
+            ],
+            "price": 170
+        },
+        {
+            "id": 2,
+            "title":"Locker room",
+            "description": "Oil on canvas, 11 x 14 inches",
+            "year":2018,
+            "img":"/images/art6.jpg",
+            "src": ["/images/art6.jpg",
+            "/images/art6-1.jpeg",
+            "/images/art6-2.jpeg",
+            "/images/art6-3.jpeg"
+            ],
+            "price": 150
+        },
+        {
+            "id": 3,
+            "title":"PNW",
+            "description": "Oil on canvas, 8 x 10 inches",
+            "year":2020,
+            "img":"/images/art5.jpeg",
+            "src": ["/images/art5.jpeg",
+            "/images/art5-1.jpeg",
+            "/images/art5-2.jpeg",
+            "/images/art5-3.jpeg"
+            ],
+            "price": 40
+        }, {
+            "id": 4,
+            "title":"Boxing",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2018,
+            "img":"/images/art9.jpg",
+            "src": ["/images/art9.jpg",
+            "/images/art9-1.jpeg",
+            "/images/art9-2.jpeg",
+            "/images/art9-3.jpeg"
+            ],
+            "price": 150
+        }, {
+            "id": 5,
+            "title":"Heart",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2018,
+            "img":"/images/art8.jpeg",
+            "src": ["/images/art8.jpeg",
+            "/images/art8-1.jpeg",
+            "/images/art8-2.jpeg",
+            "/images/art8-3.jpeg"
+            ],
+            "price": 150
+        }, {
+            "id": 6,
+            "title":"Just a thought",
+            "description": "Oil on canvas, 36 x 48 inches",
+            "year":2020,
+            "img":"/images/art4.jpg",
+            "src": ["/images/art4.jpg",
+            "/images/art4-1.jpeg",
+            "/images/art4-2.jpeg",
+            "/images/art4-3.jpeg"
+            ],
+            "price": 400
+        }, {
+            "id": 7,
+            "title":"River",
+            "description": "Oil on canvas, 30 x 24 inches",
+            "year":2019,
+            "img":"/images/river.jpg",
+            "src": ["/images/river.jpg",
+            "/images/river-1.jpeg",
+            "/images/river-2.jpeg",
+            "/images/river-3.jpeg"
+            ],
+            "price": 300
+        },{
+            "id": 8,
+            "title":"Fishing",
+            "description": "Oil on canvas, 36 x 36 inches",
+            "year":2020,
+            "img":"/images/art3.jpeg",
+            "src": ["/images/art3.jpeg",
+            "/images/art3-1.jpeg",
+            "/images/art3-2.jpeg",
+            "/images/art3-3.jpeg"
+            ],
+            "price": 450
+        },{
+            "id": 9,
+            "title":"Nostalgia 01",
+            "description": "Oil on canvas, 30 x 24 inches",
+            "year":2019,
+            "img":"/images/night.jpg",
+            "src": ["/images/night.jpg",
+            "/images/night-1.jpeg",
+            "/images/night-2.jpeg",
+            "/images/night-3.jpeg"
+            ],
+            "price": 300
+        },{
+            "id": 10,
+            "title":"Waves",
+            "description": "Oil on canvas, 36 x 36 inches",
+            "year":2020,
+            "img":"/images/wave.jpg",
+            "src": ["/images/wave.jpg",
+            "/images/art-1.jpeg",
+            "/images/art-2.jpeg",
+            "/images/art-3.jpeg"
+            ],
+            "price": 450
+        },{
+            "id": 11,
+            "title":"A farmer and a cow",
+            "description": "Oil on canvas, 24 x 30 inches",
+            "year":2020,
+            "img":"/images/art10.jpg",
+            "src": ["/images/art10.jpg",
+            "/images/art10-1.jpeg",
+            "/images/art10-2.jpeg",
+            "/images/art10-3.jpeg"
+            ],
+            "price": 300
+        }, {
+            "id": 12,
+            "title":"Window girl",
+            "description": "Oil on canvas, 11 x 14 inches",
+            "year":2020,
+            "img":"/images/art11.jpg",
+            "src": ["/images/art11.jpg",
+            "/images/art11-1.jpeg",
+            "/images/art11-2.jpeg",
+            "/images/art11-3.jpeg"
+            ],
+            "price": 40
+        }, {
+            "id": 13,
+            "title":"Going home",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2019,
+            "img":"/images/art12.jpg",
+            "src": ["/images/art12.jpg",
+            "/images/art12-1.jpeg",
+            "/images/art12-2.jpeg",
+            "/images/art12-3.jpeg"
+            ],
+            "price": 150
+        }, {
+            "id": 14,
+            "title":"Path",
+            "description": "Oil on canvas, 11 x 14 inches",
+            "year":2018,
+            "img":"/images/art13.jpeg",
+            "src": ["/images/art13.jpeg",
+            "/images/art13-1.jpeg",
+            "/images/art13-2.jpeg",
+            "/images/art13-3.jpeg"
+            ],
+            "price": 50
+        }, {
+            "id": 15,
+            "title":"Traffic scene in Seattle",
+            "description": "Oil on canvas, 8 x 10 inches",
+            "year":2021,
+            "img":"/images/art14.png",
+            "src": ["/images/art14.png",
+            "/images/art14-1.jpeg",
+            "/images/art14-2.jpeg",
+            "/images/art14-3.jpeg"
+            ],
+            "price": 40
+        }, {
+            "id": 16,
+            "title":"Foggy road",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2018,
+            "img":"/images/art15.jpg",
+            "src": ["/images/art15.jpg",
+            "/images/art15-1.jpeg",
+            "/images/art15-2.jpeg",
+            "/images/art15-3.jpeg"
+            ],
+            "price": 40
+        }
+
+
+        
+
+
+    ]
+
+
+}
