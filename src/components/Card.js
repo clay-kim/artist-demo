@@ -1,18 +1,8 @@
 import React from 'react'
-import Store from '../pages/Store';
 import './Card.css';
-import { Link } from 'react-router-dom';
+
 
 function Card(props) {
-
-    console.log("this is ==== CARD ===")
-
-
-     // <div className="card-view" >
-                //     <a href='/detail/{id}' class="link btn-block" className="card-view-btn">
-                //         View Detail
-                //     </a>
-                // </div>
 
     return (
 

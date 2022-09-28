@@ -36,7 +36,7 @@ function Exhibition() {
             <div className='second-text'>
               <h2>Group Exhibition: Nostalgia </h2>
               <h5>2019</h5>
-              <p>Private exhibition hosted by 4 artists.<br />
+              <p>Private exhibition hosted by 4 local artists.<br />
                 Each artist exhibited their work under one theme, Nostalgia.<br />
               </p>
             </div>

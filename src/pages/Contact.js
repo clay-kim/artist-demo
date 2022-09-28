@@ -4,8 +4,18 @@ import { useRef } from 'react';
 import pic from '../images/creation.jpg';
 import emailjs from '@emailjs/browser';
 
+import { SocialIcon } from 'react-social-icons'
+
 
 function Contact() {
+
+    const socialMediaHandlesLinks = {
+        gitHub: 'https://github.com/clay-kim',
+        instagram: 'https://www.instagram.com/claythepainter/',
+        linkedin: 'https://www.linkedin.com/in/claythedreamer/',
+     
+      }
+
 
     const [userName, setUserName] = useState("");
     const [userEmail, setUserEmail] = useState("");
@@ -41,8 +51,9 @@ function Contact() {
     return (
         <div className="contact-container">
             <div className="content">
-                <img src={pic} alt="selfie" />
+                <img src={pic} alt="creation_of_Adam" />
                 <div className='form-group-container'>
+                
                     <form ref={form} onSubmit={sendEmail}>
                         <h2>
                             Get in touch
@@ -87,6 +98,24 @@ function Contact() {
                         </div>
                         <button onClick={() => alert("Message sent!")}  type="submit" className="submit-button">Send</button>
                     </form>
+                    <div className='social-container'>
+                <div class="social-menu">
+                <ul class="social-handle-list">
+                  <li className="social-handle-item">
+                    <SocialIcon url={socialMediaHandlesLinks.gitHub} />
+                  </li>
+        
+                  <li className="social-handle-item">
+                    <SocialIcon url={socialMediaHandlesLinks.linkedin} />
+                  </li>
+        
+                  <li className="social-handle-item">
+                    <SocialIcon url={socialMediaHandlesLinks.instagram} />
+                  </li>
+    
+                </ul>
+              </div>
+                </div>
                 </div>
             </div>
         </div>

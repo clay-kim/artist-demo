@@ -60,6 +60,19 @@
 }
 
 
+.social-handle-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  
+  .social-handle-item {
+    margin: 5px;
+  }
+  
+
+
 input,
 textarea {
     width: 100%;

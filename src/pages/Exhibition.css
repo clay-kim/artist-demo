@@ -26,17 +26,13 @@
 }
 
 .exhibition-container .content {
-   
     display: grid;
     justify-content: center;
-
 }
 
 .img {
     position: relative;
-
 }
-
 
 .img img.image-hover {
     position: absolute;
@@ -55,6 +51,7 @@
 .first-content{
     display: flex;
     margin-bottom: 20px;
+  
 }
 
 .first-content img{
@@ -86,11 +83,22 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 1180px) {
+    .exhibition-container {
+        width: 100%;
+        height: 90vh;
+        padding: 70px 0px;
+    }
+}
+
+
+
 
 @media screen and (max-width: 780px) {
     .exhibition-container{
         width: 100%;
         height:auto;
+   
     }
     .exhibition-container .content {
         margin-bottom: 35px;
@@ -101,14 +109,17 @@
         display: block;
         margin-bottom: 20px;
         margin-top: 80px;
+       
     }
     .first-content img{
         border: 3px solid rgba(25, 25, 25, 0.755);
         max-width: 300px;
+        margin-left: 35px;
+        
     }
     .first-content .first-text {
         padding: 10px;
-        margin-left: 0px;
+        margin-left: 35px;
         font-size: 18px;
     }
     .second-content{
@@ -119,10 +130,11 @@
     .second-content img{
         border: 3px solid rgba(25, 25, 25, 0.755);
         max-width: 300px;
+        margin-left: 35px;
     }
     .second-content .second-text {
         padding: 10px;
-        margin-left: 0px;
+        margin-left: 35px;
         font-size: 18px;
     }
 
