@@ -7,12 +7,7 @@ function Home() {
     return (
         <div className='home-container'>
             <div className="content">
-                <Link to="/painting">
-                    <img src={main_painting} alt="logo" width="380" height="580" />
-                </Link>
-                <div className="text">
-                <h1> 'Just a thought'</h1> <h3> 36" x 48", Oil on canvas, 2021</h3>
-                </div>
+              
             </div>
         </div>
     )
