@@ -6,18 +6,18 @@ import { Squeeze as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
 
-    const [isMobile, setIsMobile] = useState(false);
+    const [isOpen, setOpen] = useState(false);
 
     return (
         <nav className="navbar">
-            <div className="logo" onClick={() => setIsMobile(false)}>
-                <Link to="test">
+            <div className="logo" onClick={() => setOpen(false)}>
+                <Link to="gallery">
                     <img src={logo} alt="logo" width="80" height="80" />
                 </Link>
             </div>
 
-            <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
-                onClick={() => setIsMobile(false)}>
+            <ul className={isOpen ? "nav-links-mobile" : "nav-links"}
+                onClick={() => setOpen(false)}>
 
                 <Link to='/gallery' className="gallery">
                     <li>Gallery</li>
@@ -34,16 +34,15 @@ const Navbar = () => {
                 <Link to='/contact' className="contact">
                     <li>Contact</li>
                 </Link>
-                <Link to='/practice' className="practice">
-                <li>Demo</li>
-                </Link>
+        
 
             </ul>
 
             <div className="hamburger-icon">
                 <Hamburger
+                    hideOutline={false}
                     color="black"
-                    toggled={isMobile} toggle={setIsMobile} />
+                    toggled={isOpen} toggle={setOpen} />
             </div>
 
         </nav>

@@ -8,7 +8,7 @@
 .exhibition-container {
     width: 100%;
     height: 100vh;
-    background-color: rgb(254, 232, 60);
+    background-color:  #adc4a09e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,4 +23,108 @@
     align-items:  center;
     margin-top: -130px;
     text-align: center;
+}
+
+.exhibition-container .content {
+   
+    display: grid;
+    justify-content: center;
+
+}
+
+.img {
+    position: relative;
+
+}
+
+
+.img img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.img:hover img.image-hover {
+    opacity: 1;
+}
+
+.first-content{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.first-content img{
+    border: 3px solid rgba(62, 61, 61, 0.604);
+    max-width: 300px;
+}
+.first-content .first-text {
+    padding: 20px;
+    margin-left: 140px;
+    font-size: 20px;
+}
+
+.second-content {
+    display: flex;
+}
+
+.second-content .img2{
+    max-width: 300px;
+}
+
+.second-content img {
+    border: 3px solid rgba(62, 61, 61, 0.604);
+    width: 300px;
+}
+
+.second-content .second-text {
+    padding: 20px;
+    margin-left: 140px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 780px) {
+    .exhibition-container{
+        width: 100%;
+        height:auto;
+    }
+    .exhibition-container .content {
+        margin-bottom: 35px;
+        display: block;
+    }
+
+    .first-content{
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }
+    .first-content img{
+        border: 3px solid rgba(25, 25, 25, 0.755);
+        max-width: 300px;
+    }
+    .first-content .first-text {
+        padding: 10px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    .second-content{
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .second-content img{
+        border: 3px solid rgba(25, 25, 25, 0.755);
+        max-width: 300px;
+    }
+    .second-content .second-text {
+        padding: 10px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+
 }

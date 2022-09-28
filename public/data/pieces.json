@@ -37,7 +37,7 @@
             "/images/art5-2.jpeg",
             "/images/art5-3.jpeg"
             ],
-            "price": 50
+            "price": 40
         }, {
             "id": 4,
             "title":"Boxing",
@@ -76,6 +76,18 @@
             "price": 400
         }, {
             "id": 7,
+            "title":"River",
+            "description": "Oil on canvas, 30 x 24 inches",
+            "year":2019,
+            "img":"/images/river.jpg",
+            "src": ["/images/river.jpg",
+            "/images/river-1.jpeg",
+            "/images/river-2.jpeg",
+            "/images/river-3.jpeg"
+            ],
+            "price": 300
+        },{
+            "id": 8,
             "title":"Fishing",
             "description": "Oil on canvas, 36 x 36 inches",
             "year":2020,
@@ -86,8 +98,32 @@
             "/images/art3-3.jpeg"
             ],
             "price": 450
-        }, {
-            "id": 8,
+        },{
+            "id": 9,
+            "title":"Nostalgia 01",
+            "description": "Oil on canvas, 30 x 24 inches",
+            "year":2019,
+            "img":"/images/night.jpg",
+            "src": ["/images/night.jpg",
+            "/images/night-1.jpeg",
+            "/images/night-2.jpeg",
+            "/images/night-3.jpeg"
+            ],
+            "price": 300
+        },{
+            "id": 10,
+            "title":"Waves",
+            "description": "Oil on canvas, 36 x 36 inches",
+            "year":2020,
+            "img":"/images/wave.jpg",
+            "src": ["/images/wave.jpg",
+            "/images/art-1.jpeg",
+            "/images/art-2.jpeg",
+            "/images/art-3.jpeg"
+            ],
+            "price": 450
+        },{
+            "id": 11,
             "title":"A farmer and a cow",
             "description": "Oil on canvas, 24 x 30 inches",
             "year":2020,
@@ -99,7 +135,7 @@
             ],
             "price": 300
         }, {
-            "id": 9,
+            "id": 12,
             "title":"Window girl",
             "description": "Oil on canvas, 11 x 14 inches",
             "year":2020,
@@ -109,9 +145,9 @@
             "/images/art11-2.jpeg",
             "/images/art11-3.jpeg"
             ],
-            "price": 50
+            "price": 40
         }, {
-            "id": 10,
+            "id": 13,
             "title":"Going home",
             "description": "Oil on canvas, 12 x 12 inches",
             "year":2019,
@@ -123,7 +159,7 @@
             ],
             "price": 150
         }, {
-            "id": 11,
+            "id": 14,
             "title":"Path",
             "description": "Oil on canvas, 11 x 14 inches",
             "year":2018,
@@ -133,9 +169,9 @@
             "/images/art13-2.jpeg",
             "/images/art13-3.jpeg"
             ],
-            "price": 40
+            "price": 50
         }, {
-            "id": 12,
+            "id": 15,
             "title":"Traffic scene in Seattle",
             "description": "Oil on canvas, 8 x 10 inches",
             "year":2021,
@@ -145,8 +181,21 @@
             "/images/art14-2.jpeg",
             "/images/art14-3.jpeg"
             ],
-            "price": 30
+            "price": 40
+        }, {
+            "id": 16,
+            "title":"Foggy road",
+            "description": "Oil on canvas, 12 x 12 inches",
+            "year":2018,
+            "img":"/images/art15.jpg",
+            "src": ["/images/art15.jpg",
+            "/images/art15-1.jpeg",
+            "/images/art15-2.jpeg",
+            "/images/art15-3.jpeg"
+            ],
+            "price": 40
         }
+
 
         
 

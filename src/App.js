@@ -29,7 +29,6 @@ const App = () => {
           <Route path='/store' element={<Store products={products} setProducts={setProducts}/>} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/test' element={<Test products={products} setProducts={setProducts}/>} /> 
-          <Route path='/practice' element={<Practice products={products} setProducts={setProducts}/>} />
           <Route path='/detail' element={<Detail products={products} setProducts={setProducts}/>} />
       
          

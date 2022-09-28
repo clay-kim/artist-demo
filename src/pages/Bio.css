@@ -8,7 +8,7 @@
 .bio-container {
     width: 100%;
     height: 100vh;
-    background-color: #A0C4BB;
+    background-color: #a0c4bb9e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,11 +41,12 @@
 }
 
 .bio-container .text h1 {
-    color: rgb(230, 234, 242);
+    color: rgb(242, 243, 247);
     font-size: 55px;
     margin-bottom: 20px;
     text-transform: uppercase;
     margin-top: 0;
+
 }
 
 .bio-container .text h5 {
@@ -57,7 +58,7 @@
 }
 
 .bio-container .text p {
-    color: rgb(82, 82, 82);
+    color: rgb(71, 70, 70);
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 1px;

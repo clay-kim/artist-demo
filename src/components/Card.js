@@ -1,5 +1,7 @@
 import React from 'react'
+import Store from '../pages/Store';
 import './Card.css';
+import { Link } from 'react-router-dom';
 
 function Card(props) {
 
@@ -20,9 +22,8 @@ function Card(props) {
                 <h2 class='text-end' className="card_title">{props.title}</h2>
                 <p class='text-end mb-2 text-muted' className='card_year'>{props.year}</p>
                 <p class='text-end mb-2 text-muted' className='card_description'>{props.description}</p>
-                <p class='text-end mb-2 text-muted' className='card_price'>$ {props.price}</p>
-                
-               
+                <p class='text-end mb-2 text-muted' className='card_price'>$ {props.price}</p> 
+                <p class='text-end mb-2 text-muted' className='card_available'>{props.available}</p>
             </div>
         </div>
     )

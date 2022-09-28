@@ -25,7 +25,7 @@
     display: none;
 }
 
-.practice,
+
 .gallery,
 .exhibition,
 .bio,
@@ -53,13 +53,14 @@
 }
 
 .nav-links li:hover {
-    color:#fa9dbc;
+    color:#fa9dbcd9;
 }
 
 
 .hamburger-icon {
     display: none;
 }
+
 
 /*
     mobile mode
@@ -90,7 +91,7 @@
         padding: 20px;
         z-index: 10;
     }
-    .practice,
+ 
     .gallery,
     .exhibition,
     .bio,

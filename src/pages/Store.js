@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import "./Store.css"
 import axios from 'axios'
 import Card from '../components/Card';
@@ -10,6 +10,7 @@ import ModalTitle from "react-bootstrap/ModalTitle";
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import emailjs from '@emailjs/browser';
 
 function Store({ products, setProducts }) {
 
@@ -18,7 +19,7 @@ function Store({ products, setProducts }) {
             setProducts(data.data.pieces);
         });
     }, [setProducts]);
-    console.log("this is from Test page:");
+    console.log("this is from Gallery page:");
 
 
     //Modal window for detail view
@@ -46,6 +47,36 @@ function Store({ products, setProducts }) {
     const handleShow2 = () => setShow2(true);
     const handleClose2 = () => setShow2(false);
 
+    //Modal:Art Inquiry form 
+    const [userEmail, setUserEmail] = useState("");
+    const [userMessage, setUserMessage] = useState("");
+    const [show3, setShow3] = useState(false);
+
+    const handleEmail = (e) => {
+        setUserEmail(e.target.value);
+    }
+    const handleMessage = (e) => {
+        setUserMessage(e.target.value);
+    }
+    const handleItem = (e) => {
+        setUserMessage(e.target.value);
+    }
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_pkwhcsu', 'template_6kk4wze', form.current, 'NNsAiQ8PXH7vXzF9y')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        setUserEmail('');
+        setUserMessage('');
+    };
+
 
     return (
         <div className='store-container'>
@@ -71,7 +102,7 @@ function Store({ products, setProducts }) {
 
 
             <div className="modal-container">
-                <Modal
+                <Modal className="modal"
                     show={show}
                     onHide={() => {handleTab(0); setShow(false)}}
                     size="xl"
@@ -86,7 +117,7 @@ function Store({ products, setProducts }) {
                     </ModalHeader>
 
                     <ModalBody className="show-grid">
-                        <Container className='modal-container'>
+                        <Container className='container'>
                             <div className="modal-content">
 
                                 <div className="details">
@@ -107,7 +138,7 @@ function Store({ products, setProducts }) {
                                                     onClick={() => handleTab(index)} />
                                             ))}
                                         </div>
-                                        <button className="buyBtn" onClick={(e) => {handleShow2();}}>Buy</button>
+                                        <button className="buyBtn" onClick={(e) => {handleShow2();}}>Acquire this Artwork</button>
                                     </div>
                                 </div>
                             </div>
@@ -117,44 +148,58 @@ function Store({ products, setProducts }) {
             </div>
 
 
-            <div className="modal-form">                                
-                <Modal 
+            <div className="modal-form">
+            <Modal
                 show={show2} onHide={handleClose2}
                 centered={true}
                 products={popUp}
-                >
+            >
 
-                    <Modal.Header closeButton>
-                        <Modal.Title>Modal heading</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                        <Form>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control
-                                    type="email"
-                                    placeholder="name@example.com"
-                                    autoFocus
-                                />
-                            </Form.Group>
-                            <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlTextarea1"
-                            >
-                                <Form.Label>Example textarea</Form.Label>
-                                <Form.Control as="textarea" rows={3} />
-                            </Form.Group>
-                        </Form>
-                    </Modal.Body>
-                    <Modal.Footer>
-                        <Button variant="secondary" onClick={handleClose2}>
-                            Close
-                        </Button>
-                        <Button variant="primary" onClick={handleClose2}>
-                            Save Changes
-                        </Button>
-                    </Modal.Footer>
-                </Modal>
+                <Modal.Header closeButton>
+                    <Modal.Title>Inquiry</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+
+                    <form ref={form} onSubmit={sendEmail}>
+
+
+                        <div className="form-group-item">
+                            <img src={popUp.img} alt="item" width="100px"></img>
+                            <div>
+                            <label for="user_email">Item:   {popUp.title}</label>
+                            </div>
+                        </div>
+                        <br></br>
+                            <input type = "hidden" class="form-control" id="exampleFormControlInput1"
+                            value = {popUp.title}
+                            name="user_item"
+                            onChange={handleItem}/>
+
+                        <div class="form-group">
+                            <label for="user_email">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com"
+                                value={userEmail}
+                                name="user_email"
+                                onChange={handleEmail} />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Ask for anything!"
+                                name="message"
+                                value={userMessage}
+                                onChange={handleMessage}
+                            />
+                        </div>
+                        <button type="submit" className="submit-button" onClick={()=>{handleClose2(); handleClose();}}>Submit</button>
+                    </form>
+                </Modal.Body>
+                <Modal.Footer>
+                </Modal.Footer>
+            </Modal>
+
             </div>
 
 

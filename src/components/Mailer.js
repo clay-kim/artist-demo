@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import ProgressBar from './ProgressBar';
 
-function UploadForm() {
+function Mailer() {
 
     const [file, setFile] = useState(null);
     const [error, setError] = useState(null);
@@ -35,4 +35,4 @@ function UploadForm() {
     )
 }
 
-export default UploadForm
+export default Mailer
