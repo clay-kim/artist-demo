@@ -194,6 +194,66 @@
             "/images/art15-3.jpeg"
             ],
             "price": 40
+        }, {
+            "id": 17,
+            "title":"Jump rope",
+            "description": "Oil on canvas, 12 x 14 inches",
+            "year":2020,
+            "img":"/images/art16.jpg",
+            "src": ["/images/art16.jpg",
+            "/images/art16-1.jpeg",
+            "/images/art16-2.jpeg",
+            "/images/art16-3.jpeg"
+            ],
+            "price": 50
+        }, {
+            "id": 18,
+            "title":"City landscape",
+            "description": "Oil on canvas, 24 x 12 inches",
+            "year":2021,
+            "img":"/images/art17.jpg",
+            "src": ["/images/art17.jpg",
+            "/images/art17-1.jpeg",
+            "/images/art17-2.jpeg",
+            "/images/art17-3.jpeg"
+            ],
+            "price": 40
+        }, {
+            "id": 19,
+            "title":"밭갈기 (Plowing)",
+            "description": "Oil on canvas, 12 x 4 inches",
+            "year":2021,
+            "img":"/images/art18.jpg",
+            "src": ["/images/art18.jpg",
+            "/images/art18-1.jpeg",
+            "/images/art18-2.jpeg",
+            "/images/art18-3.jpeg"
+            ],
+            "price": 40
+        }, {
+            "id": 20,
+            "title":"Procrastination",
+            "description": "Oil on canvas, 16 x 20 inches",
+            "year":2020,
+            "img":"/images/art19.jpg",
+            "src": ["/images/art19.jpg",
+            "/images/art19-1.jpeg",
+            "/images/art19-2.jpeg",
+            "/images/art19-3.jpeg"
+            ],
+            "price": 200
+        }, {
+            "id": 21,
+            "title":"Untitled",
+            "description": "Oil on canvas, 11 x 14 inches",
+            "year":2022,
+            "img":"/images/art20.jpg",
+            "src": ["/images/art20.jpg",
+            "/images/art20-1.jpeg",
+            "/images/art20-2.jpeg",
+            "/images/art20-3.jpeg"
+            ],
+            "price": 50
         }
 
 
