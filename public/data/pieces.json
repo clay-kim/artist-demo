@@ -24,7 +24,7 @@
             "/images/art6-2.jpeg",
             "/images/art6-3.jpeg"
             ],
-            "price": 150
+            "price": 200
         },
         {
             "id": 3,
@@ -49,7 +49,7 @@
             "/images/art9-2.jpeg",
             "/images/art9-3.jpeg"
             ],
-            "price": 150
+            "price": 200
         }, {
             "id": 5,
             "title":"Heart",
@@ -61,7 +61,7 @@
             "/images/art8-2.jpeg",
             "/images/art8-3.jpeg"
             ],
-            "price": 150
+            "price": 200
         }, {
             "id": 6,
             "title":"Just a thought",
@@ -73,7 +73,7 @@
             "/images/art4-2.jpeg",
             "/images/art4-3.jpeg"
             ],
-            "price": 400
+            "price": 500
         }, {
             "id": 7,
             "title":"River",
@@ -97,7 +97,7 @@
             "/images/art3-2.jpeg",
             "/images/art3-3.jpeg"
             ],
-            "price": 450
+            "price": 500
         },{
             "id": 9,
             "title":"Nostalgia 01",
@@ -109,7 +109,7 @@
             "/images/night-2.jpeg",
             "/images/night-3.jpeg"
             ],
-            "price": 300
+            "price": 350
         },{
             "id": 10,
             "title":"Waves",
@@ -121,7 +121,7 @@
             "/images/art-2.jpeg",
             "/images/art-3.jpeg"
             ],
-            "price": 450
+            "price": 500
         },{
             "id": 11,
             "title":"A farmer and a cow",
@@ -133,7 +133,7 @@
             "/images/art10-2.jpeg",
             "/images/art10-3.jpeg"
             ],
-            "price": 300
+            "price": 350
         }, {
             "id": 12,
             "title":"Window girl",
@@ -157,7 +157,7 @@
             "/images/art12-2.jpeg",
             "/images/art12-3.jpeg"
             ],
-            "price": 150
+            "price": 200
         }, {
             "id": 14,
             "title":"Path",
@@ -169,7 +169,7 @@
             "/images/art13-2.jpeg",
             "/images/art13-3.jpeg"
             ],
-            "price": 50
+            "price": 60
         }, {
             "id": 15,
             "title":"Traffic scene in Seattle",
@@ -217,7 +217,7 @@
             "/images/art17-2.jpeg",
             "/images/art17-3.jpeg"
             ],
-            "price": 40
+            "price": 50
         }, {
             "id": 19,
             "title":"밭갈기 (Plowing)",
@@ -253,7 +253,7 @@
             "/images/art20-2.jpeg",
             "/images/art20-3.jpeg"
             ],
-            "price": 50
+            "price": 60
         }
 
 
