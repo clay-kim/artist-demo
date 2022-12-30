@@ -20,7 +20,7 @@
 
 .card{
     overflow: hidden;
-    box-shadow: 2 2px 20px rgb(166, 158, 158);
+    box-shadow: 2px 1px 4px rgb(166, 158, 158);
     border-radius: 1em;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,6 @@
 
 .card_body{
     background-color: rgba(255, 255, 255, 0.704);
-    border: 2px solid  #908e90;
     border-radius: 0.5em;
 }
 
@@ -59,8 +58,6 @@
     width: 85%;
     max-width: 450px;
     object-fit:cover;
-    border: 1.2px solid rgba(73, 71, 71, 0.777);
-    
 }
 
 @media screen and (max-width: 1200px) {

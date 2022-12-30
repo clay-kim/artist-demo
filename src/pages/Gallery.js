@@ -44,7 +44,6 @@ function Gallery({ products, setProducts }) {
         <div className='gallery-container'>
             <h1>Gallery</h1>
 
-
             <div className="modal-container">
                 <Modal
                     show={show}
@@ -90,7 +89,6 @@ function Gallery({ products, setProducts }) {
                         <CardArt key={`key-${item.id}`}
                             img={item.img}
                         />
-                       
                     </div>
                 })}
                 </div>

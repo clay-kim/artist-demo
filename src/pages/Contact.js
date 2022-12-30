@@ -63,7 +63,7 @@ function Contact() {
                         <div className="form-group">
                             <label htmlFor='email'>
                                 <textarea
-                                    placeholder='Your email address'
+                                    placeholder='Your email address' required
                                     type="text"
                                     name="user_email"
                                     message="email"
@@ -85,7 +85,7 @@ function Contact() {
                                 />
                             </label>
                         </div>
-                        <button onClick={() => alert("Message sent!")}  type="submit" className="submit-button">Send</button>
+                        <button onClick={() => userEmail ? alert("Message sent!"): alert("Please fill out the form below.")}  type="submit" className="submit-button">Send</button>
                     </form>
                 </div>
             </div>
