@@ -47,7 +47,7 @@ function Store({ products, setProducts }) {
     //Modal:Art Inquiry form 
     const [userEmail, setUserEmail] = useState("");
     const [userMessage, setUserMessage] = useState("");
-    const [show3, setShow3] = useState(false);
+    // const [show3, setShow3] = useState(false);
 
     const handleEmail = (e) => {
         setUserEmail(e.target.value);
@@ -175,7 +175,7 @@ function Store({ products, setProducts }) {
                         <div class="form-group">
                             <label for="user_email">Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com"
+                                placeholder="name@example.com" required
                                 value={userEmail}
                                 name="user_email"
                                 onChange={handleEmail} />
@@ -189,8 +189,9 @@ function Store({ products, setProducts }) {
                                 value={userMessage}
                                 onChange={handleMessage}
                             />
+                    
                         </div>
-                        <button type="submit" className="submit-button" onClick={()=>{handleClose2(); handleClose();}}>Submit</button>
+                        <button type="submit" className="submit-button" onClick={()=>{handleClose2(); handleClose(); userEmail ? alert("Message sent!"): alert("Please fill out the form below.")} } >Submit</button>
                     </form>
                 </Modal.Body>
                 <Modal.Footer>
