@@ -4,7 +4,6 @@ import Exhibition from './pages/Exhibition';
 import Bio from './pages/Bio';
 import Contact from './pages/Contact';
 import Store from './pages/Store';
-import Footer from './components/Footer';
 import Gallery from './pages/Gallery';
 import Navbar from './components/Navbar';
 
@@ -22,7 +21,7 @@ const App = () => {
           <Route path='/store' element={<Store products={products} setProducts={setProducts}/>} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-        <Footer />
+    
     </Router>
   );
 };
