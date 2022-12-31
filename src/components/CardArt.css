@@ -8,7 +8,7 @@
     justify-content: space-evenly;
     justify-items: center;
     transition: transform 200ms ease-in;
-    margin: 0 70px;
+    margin: 0 60px;
     border: 0px solid  #4e4d4e;
     cursor: pointer;
 }

@@ -27,7 +27,7 @@
     justify-content: space-evenly;
     justify-items: center;
     transition: transform 200ms ease-in;
-    margin: 0 70px;
+    margin: 10px 60px;
 }
 
 .card_body{

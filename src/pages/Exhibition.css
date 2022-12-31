@@ -14,14 +14,8 @@
     align-items: center;
     margin-top: 50px;
 }
-.exhibition-container h1 {
-    color: tomato;
-    font-size: 70px;
-    border: 20px solid;
-    background-color: aqua;
-    align-items:  center;
-    margin-top: -130px;
-    text-align: center;
+.exhibition-container h2 {
+    color: rgb(79, 79, 82);
 }
 .exhibition-container .content {
    

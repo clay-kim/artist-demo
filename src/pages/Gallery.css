@@ -40,7 +40,7 @@
     text-align: center;
     margin: 0 auto;
     padding: 10px;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 .centered {
     display: flex;
