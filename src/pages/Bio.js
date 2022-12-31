@@ -12,7 +12,7 @@ function Bio() {
                 <img src={profile_pic} alt="selfie"/>
                     <div className='text'>
                         <h1>About Clay</h1>
-                        <h5>Oil Painter</h5>
+                        <h5>Oil Painter Artist</h5>
                         <p>Clay is a Seattle based artist, who spent his childhood in Korea. 
                         After he got fascinated by “the beauty of blank space” which is the most important element of Korean traditional painting, his works are oriented in the beauty of simplified and omitted elements.
                         <br/><br/>
