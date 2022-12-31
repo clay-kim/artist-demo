@@ -11,8 +11,14 @@
     background-color: white;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 120px;
     padding-bottom: 70px;
+}
+
+.content {
+    margin-top: 50px;
+    display: flex;
+    justify-content:  center;
 }
 
 .content .row .col {
@@ -20,12 +26,11 @@
 }
 
 .content .row .col img{
-   
     display: block;
 	width: 100%;
 	max-height: 400px;
 	object-fit: cover;
-	transition: transform 400ms ease-out;
+	transition: transform 400ms ease-out;    
 }
 
 .gallery-container h1 {
@@ -83,18 +88,22 @@
     max-height: 800px;
 }
 .gallery-show-grid h2 {
-    font-size: 45px;
+    font-size: 28px;
     text-align: left;
     color: rgba(14, 13, 13, 0.849);
     text-align: left;
     margin-top: 10px;
+    margin-bottom: 30px;
     margin-left: 15px;
     letter-spacing: 1px;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .gallery-show-grid h4 {
-    font-size: 25px;
+    font-size: 14px;
     text-align: left;
     margin-left: 15px;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1em;
     
 }
 
@@ -164,24 +173,25 @@
     }
 
     .gallery-show-grid h2 {
-        font-size: 2em;
+        font-size: 20px;
         text-align: left;
         color: rgb(11, 11, 11);
         text-align: left;
         margin-top: 10px;
         margin-left: 15px;
-
+        margin-bottom: 10px;
     }
 
     .gallery-show-grid h4 {
-        font-size: 1em;
+        font-size: 14px;
         text-align: left;
         margin-left: 15px;
         color: #212529;
+        line-height: .8em;
     }
 
     .gallery-show-grid .available {
-        font-size: 1em;
+        font-size: 12px;
         text-align: left;
         margin-left: 15px;
         color: #d96545ec;

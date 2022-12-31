@@ -52,7 +52,7 @@
 }
 
 .first-content img{
-    border: 3px solid rgba(62, 61, 61, 0.604);
+    border: 0px solid rgba(62, 61, 61, 0.604);
     max-width: 300px;
 }
 .first-content .first-text {
@@ -73,7 +73,7 @@ h5 {
 }
 
 .second-content img {
-    border: 3px solid rgba(62, 61, 61, 0.604);
+    border: 0px solid rgba(62, 61, 61, 0.604);
     width: 300px;
 }
 
@@ -100,7 +100,7 @@ h5 {
         margin-top: 80px;
     }
     .first-content img{
-        border: 3px solid rgba(25, 25, 25, 0.755);
+        border: 0px solid rgba(25, 25, 25, 0.755);
         max-width: 300px;
         margin-left: 35px;
     }
@@ -115,7 +115,7 @@ h5 {
         margin-top: 40px;
     }
     .second-content img{
-        border: 3px solid rgba(25, 25, 25, 0.755);
+        border: 0px solid rgba(25, 25, 25, 0.755);
         max-width: 300px;
         margin-left: 35px;
     }
