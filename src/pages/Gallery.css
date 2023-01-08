@@ -34,7 +34,7 @@
 }
 
 .gallery-container h1 {
-    font-size: 30px;
+    font-size: 28px;
     color: #545456db;
     font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
@@ -108,10 +108,10 @@
 }
 
 .gallery-show-grid .available {
-    font-size: 1em;
+    font-size: 14px;
     text-align: left;
     margin-left: 15px;
-    color: #fa4f4feb;
+    color: #ee4d4deb;
     text-decoration: none;
 }
 
