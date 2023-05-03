@@ -13,17 +13,11 @@ function Bio() {
                     <div className='text'>
                         <h1>About Clay</h1>
                         <h5>Oil Painter</h5>
-                        <p>Clay is a Seattle based artist, who spent his childhood in Korea. 
-                        After he got fascinated by “the beauty of blank space” which is the most important element of Korean traditional painting, his works are oriented in the beauty of simplified and omitted elements.
+                        <p>Clay, a Seattle-based artist who grew up in Korea, has a distinctive approach to his art. He draws inspiration from the "beauty of blank space," a crucial element in traditional Korean painting, which involves simplification and omission of elements.
                         <br/><br/>
-                        He defines the blank space as the act of emptying the greed and ego on the canvas. This omitted and empty space gives the audience more room to intervene.
-                        <br/>
-                        The most of his inspiration mainly comes from the things we experience and face such as people and nature.
+                        According to Clay, the blank space represents the act of emptying one's greed and ego on the canvas, providing the audience with ample room to intervene. He draws inspiration from people and nature, the things we experience and face daily.
                         <br/><br/>
-                        As with most paintings, the essential elements of his paintings are line, color, and space.
-                        Those, often, represent artist’s stubbornness, emotions, and background.
-                        Clay defines his paintings as a seesaw. They go down, go up, and sometimes stop for you depending on the time and subject matter.
-                        This ordinary and trivial but such a special experience resonates something in your soul.
+                        Line, color, and space are the essential components of Clay's paintings, symbolizing his stubbornness, emotions, and background. According to Clay, his paintings are like a seesaw, constantly shifting and changing depending on the subject matter and time. This ordinary yet extraordinary experience speaks to the soul and resonates deeply with the viewer.
                         </p>
                     </div>
             </div>
