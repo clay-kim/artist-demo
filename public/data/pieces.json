@@ -11,7 +11,7 @@
             "/images/art7-2.jpeg",
             "/images/art7-3.jpeg"
             ],
-            "price": 170
+            "price": 200
         },
         {
             "id": 2,
@@ -24,7 +24,7 @@
             "/images/art6-2.jpeg",
             "/images/art6-3.jpeg"
             ],
-            "price": 150
+            "price": 200
         },
         {
             "id": 3,
@@ -37,7 +37,7 @@
             "/images/art5-2.jpeg",
             "/images/art5-3.jpeg"
             ],
-            "price": 40
+            "price": 50
         }, {
             "id": 4,
             "title":"Boxing",
@@ -49,7 +49,7 @@
             "/images/art9-2.jpeg",
             "/images/art9-3.jpeg"
             ],
-            "price": 150
+            "price": 200
         }, {
             "id": 5,
             "title":"Heart",
@@ -61,7 +61,7 @@
             "/images/art8-2.jpeg",
             "/images/art8-3.jpeg"
             ],
-            "price": 150
+            "price": 200
         }, {
             "id": 6,
             "title":"Just a thought",
@@ -73,7 +73,7 @@
             "/images/art4-2.jpeg",
             "/images/art4-3.jpeg"
             ],
-            "price": 400
+            "price": 500
         }, {
             "id": 7,
             "title":"River",
@@ -85,7 +85,7 @@
             "/images/river-2.jpeg",
             "/images/river-3.jpeg"
             ],
-            "price": 300
+            "price": 350
         },{
             "id": 8,
             "title":"Fishing",
@@ -97,7 +97,7 @@
             "/images/art3-2.jpeg",
             "/images/art3-3.jpeg"
             ],
-            "price": 450
+            "price": 500
         },{
             "id": 9,
             "title":"Nostalgia 01",
@@ -109,7 +109,7 @@
             "/images/night-2.jpeg",
             "/images/night-3.jpeg"
             ],
-            "price": 300
+            "price": 350
         },{
             "id": 10,
             "title":"Waves",
@@ -121,7 +121,7 @@
             "/images/art-2.jpeg",
             "/images/art-3.jpeg"
             ],
-            "price": 450
+            "price": 500
         },{
             "id": 11,
             "title":"A farmer and a cow",
@@ -133,7 +133,7 @@
             "/images/art10-2.jpeg",
             "/images/art10-3.jpeg"
             ],
-            "price": 300
+            "price": 350
         }, {
             "id": 12,
             "title":"Window girl",
@@ -145,7 +145,7 @@
             "/images/art11-2.jpeg",
             "/images/art11-3.jpeg"
             ],
-            "price": 40
+            "price": 50
         }, {
             "id": 13,
             "title":"Going home",
@@ -157,7 +157,7 @@
             "/images/art12-2.jpeg",
             "/images/art12-3.jpeg"
             ],
-            "price": 150
+            "price": 200
         }, {
             "id": 14,
             "title":"Path",
@@ -181,7 +181,7 @@
             "/images/art14-2.jpeg",
             "/images/art14-3.jpeg"
             ],
-            "price": 40
+            "price": 50
         }, {
             "id": 16,
             "title":"Foggy road",
@@ -193,7 +193,7 @@
             "/images/art15-2.jpeg",
             "/images/art15-3.jpeg"
             ],
-            "price": 40
+            "price": 50
         }
 
 
