@@ -74,18 +74,6 @@
             "/images/art4-3.jpeg"
             ],
             "price": 500
-        }, {
-            "id": 7,
-            "title":"River",
-            "description": "Oil on canvas, 30 x 24 inches",
-            "year":2019,
-            "img":"/images/river.jpg",
-            "src": ["/images/river.jpg",
-            "/images/river-1.jpeg",
-            "/images/river-2.jpeg",
-            "/images/river-3.jpeg"
-            ],
-            "price": 350
         },{
             "id": 8,
             "title":"Fishing",
@@ -96,30 +84,6 @@
             "/images/art3-1.jpeg",
             "/images/art3-2.jpeg",
             "/images/art3-3.jpeg"
-            ],
-            "price": 500
-        },{
-            "id": 9,
-            "title":"Nostalgia 01",
-            "description": "Oil on canvas, 30 x 24 inches",
-            "year":2019,
-            "img":"/images/night.jpg",
-            "src": ["/images/night.jpg",
-            "/images/night-1.jpeg",
-            "/images/night-2.jpeg",
-            "/images/night-3.jpeg"
-            ],
-            "price": 350
-        },{
-            "id": 10,
-            "title":"Waves",
-            "description": "Oil on canvas, 36 x 36 inches",
-            "year":2020,
-            "img":"/images/wave.jpg",
-            "src": ["/images/wave.jpg",
-            "/images/art-1.jpeg",
-            "/images/art-2.jpeg",
-            "/images/art-3.jpeg"
             ],
             "price": 500
         },{
